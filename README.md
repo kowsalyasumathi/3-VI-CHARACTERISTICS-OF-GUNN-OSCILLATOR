@@ -80,6 +80,7 @@ This behavior confirms the negative differential resistance (NDR) characteristic
 
 <img width="968" height="341" alt="image" src="https://github.com/user-attachments/assets/cd1a47c6-2c29-4f65-8b5f-0cc69c6c40c0" />
 
+
 Graph:
 
 
