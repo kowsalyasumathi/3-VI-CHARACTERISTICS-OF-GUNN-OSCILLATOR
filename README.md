@@ -53,13 +53,48 @@ In a Gunn Oscillator, the Gunn diode is placed in a resonant cavity. In this cas
 
 *Note: After tuning the Gunn source, the procedure for VSWR & Impedance measurement depthof PIN modulator.*
 
-**B.Observation: ( Include your own Table relevant to the Experiment)** (Include Tabulation Part)
+**B.Observation: ( Include your own Table relevant to the Experiment)** 
+
+| S.No | GUNN BIAS VOLTAGE (V)  | GUNN DIODE CURRENT (mA)  |
+|-----|------------------------|--------------------------|
+| 1    | 0.5                    | 40                       |
+| 2    | 1                      | 100                      |
+| 3    | 1.5                    | 120                      |
+| 4    | 2                      | 150                      |
+| 5    | 2.5                    | 160                      |
+| 6    | 3                      | 180                      |
+| 7    | 3.5                    | 195                      |
+| 8    | 4                      | 210                      |
+| 9    | 4.5                    | 195                      |
+| 10   | 5                      | 180                      |
+
+
+Observation Analysis -> Up to 2.5 V, current increases linearly. -> Between 2.5 V and 5 V, current slightly decreases — indicating the negative resistance region. -> This region is responsible for generating oscillations inside the resonant cavity of the Gunn oscillator.
+
 
 **C.Analysis of Results: (Write your own)**
 
-(Include sample calculations/Display/plot/typical graph)
+From the observation table, it is seen that the current through the Gunn diode initially increases linearly with the applied bias voltage. As the voltage increases further, the current reaches a peak value (known as Peak Current) and then decreases even though the voltage continues to increase — this region is called the Negative Resistance Region. After reaching the Valley Current, the current starts to rise again with voltage.
 
-**D.Conclusions: (Write  your Own)**
+This behavior confirms the negative differential resistance (NDR) characteristic of the Gunn diode, which is essential for microwave oscillation.
+
+<img width="968" height="341" alt="image" src="https://github.com/user-attachments/assets/cd1a47c6-2c29-4f65-8b5f-0cc69c6c40c0" />
+
+Graph:
+
+
+**D.Conclusions:**
+
+**Gunn Diode I-V Characteristic & Conclusions**
+
+* The I-V characteristic clearly exhibits a **Negative Differential Resistance (NDR) region** between approximately **$2.5\text{ V}$ and $5\text{ V}$**.
+    * This NDR confirms the diode's capability for **microwave oscillation**.
+* Key observed current values were:
+    * **Peak Current ($I_P$):** $195\text{ mA}$
+    * **Valley Current ($I_V$):** $175\text{ mA}$
+* The **calculated negative resistance** was approximately **$-125\ \Omega$**, which supports the theory of the **transferred electron effect**.
+* The experiment successfully demonstrated the working principle of a **Gunn oscillator**, highlighting the vital role of the negative resistance region in generating microwave signals.
+* **PIN Diode Modulation:** The **depth of modulation** is determined by calculating the difference in $\text{dB}$ readings on the VSWR meter corresponding to the maximum and minimum attenuation.
 
 **Precautions:**
 
@@ -68,4 +103,17 @@ In a Gunn Oscillator, the Gunn diode is placed in a resonant cavity. In this cas
 •	Observation should be taken properly.
 
 **Result:**
+
+**Gunn Diode I-V Characteristics Verification**
+
+* The I–V characteristics of the Gunn diode were plotted, and the **negative resistance region (NDR)** was clearly identified.
+* **Peak Voltage ($V_P$):** $2.5\text{ V}$
+* **Valley Voltage ($V_V$):** $5\text{ V}$
+* **Peak Current ($I_P$):** $195\text{ mA}$
+* **Valley Current ($I_V$):** $175\text{ mA}$
+* **Calculated Negative Resistance ($R_N$):** $\approx -125\ \Omega$
+* The negative resistance characteristics verify the **transferred electron effect** and the diode's capability for **microwave oscillation**.
+* The **depth of modulation** of the PIN diode is obtained from the **$\text{dB}$ difference** in the VSWR meter readings.
+
+Thus, The experiment was successfully performed, and the negative differential resistance characteristics of the Gunn diode were verified.
 
