@@ -75,10 +75,8 @@ This behavior confirms the negative differential resistance (NDR) characteristic
 
 * The I-V characteristic clearly exhibits a **Negative Differential Resistance (NDR) region** between approximately **$2.5\text{ V}$ and $5\text{ V}$**.
     * This NDR confirms the diode's capability for **microwave oscillation**.
-* Key observed current values were:
-    * **Peak Current ($I_P$):** $195\text{ mA}$
-    * **Valley Current ($I_V$):** $175\text{ mA}$
-* The **calculated negative resistance** was approximately **$-125\ \Omega$**, which supports the theory of the **transferred electron effect**.
+
+* The **calculated negative resistance**  which supports the theory of the **transferred electron effect**.
 * The experiment successfully demonstrated the working principle of a **Gunn oscillator**, highlighting the vital role of the negative resistance region in generating microwave signals.
 * **PIN Diode Modulation:** The **depth of modulation** is determined by calculating the difference in $\text{dB}$ readings on the VSWR meter corresponding to the maximum and minimum attenuation.
 
