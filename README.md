@@ -56,10 +56,6 @@ In a Gunn Oscillator, the Gunn diode is placed in a resonant cavity. In this cas
 **B.Observation: ** 
 <img width="1126" height="968" alt="image" src="https://github.com/user-attachments/assets/59e85f6a-9a18-4b91-acb0-5e5c43869071" />
 
-
-Observation Analysis -> Up to 2.5 V, current increases linearly. -> Between 2.5 V and 5 V, current slightly decreases — indicating the negative resistance region. -> This region is responsible for generating oscillations inside the resonant cavity of the Gunn oscillator.
-
-
 **Graph:**
 
 <img width="993" height="1280" alt="image" src="https://github.com/user-attachments/assets/b4faca47-01e3-410f-8219-bbd9bbf62223" />
