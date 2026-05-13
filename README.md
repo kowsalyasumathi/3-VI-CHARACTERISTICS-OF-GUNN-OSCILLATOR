@@ -54,19 +54,7 @@ In a Gunn Oscillator, the Gunn diode is placed in a resonant cavity. In this cas
 *Note: After tuning the Gunn source, the procedure for VSWR & Impedance measurement depthof PIN modulator.*
 
 **B.Observation: ** 
-
-| S.No | GUNN BIAS VOLTAGE (V)  | GUNN DIODE CURRENT (mA)  |
-|-----|------------------------|--------------------------|
-| 1    | 0.5                    | 40                       |
-| 2    | 1                      | 100                      |
-| 3    | 1.5                    | 120                      |
-| 4    | 2                      | 150                      |
-| 5    | 2.5                    | 160                      |
-| 6    | 3                      | 180                      |
-| 7    | 3.5                    | 195                      |
-| 8    | 4                      | 210                      |
-| 9    | 4.5                    | 195                      |
-| 10   | 5                      | 180                      |
+<img width="1126" height="968" alt="image" src="https://github.com/user-attachments/assets/59e85f6a-9a18-4b91-acb0-5e5c43869071" />
 
 
 Observation Analysis -> Up to 2.5 V, current increases linearly. -> Between 2.5 V and 5 V, current slightly decreases — indicating the negative resistance region. -> This region is responsible for generating oscillations inside the resonant cavity of the Gunn oscillator.
@@ -74,7 +62,7 @@ Observation Analysis -> Up to 2.5 V, current increases linearly. -> Between 2.5 
 
 **Graph:**
 
-
+<img width="993" height="1280" alt="image" src="https://github.com/user-attachments/assets/b4faca47-01e3-410f-8219-bbd9bbf62223" />
 
 **C.Analysis of Results: **
 
@@ -105,17 +93,8 @@ This behavior confirms the negative differential resistance (NDR) characteristic
 •	Observation should be taken properly.
 
 **Result:**
+The I–V characteristics of the Gunn diode were successfully plotted, showing a clear negative resistance region. The depth of modulation of the PIN diode was calculated from the difference in attenuation readings, confirming proper amplitude modulation of the microwave signal.
 
-**Gunn Diode I-V Characteristics Verification**
-
-* The I–V characteristics of the Gunn diode were plotted, and the **negative resistance region (NDR)** was clearly identified.
-* **Peak Voltage ($V_P$):** $2.5\text{ V}$
-* **Valley Voltage ($V_V$):** $5\text{ V}$
-* **Peak Current ($I_P$):** $195\text{ mA}$
-* **Valley Current ($I_V$):** $175\text{ mA}$
-* **Calculated Negative Resistance ($R_N$):** $\approx -125\ \Omega$
-* The negative resistance characteristics verify the **transferred electron effect** and the diode's capability for **microwave oscillation**.
-* The **depth of modulation** of the PIN diode is obtained from the **$\text{dB}$ difference** in the VSWR meter readings.
 
 Thus, The experiment was successfully performed, and the negative differential resistance characteristics of the Gunn diode were verified.
 
