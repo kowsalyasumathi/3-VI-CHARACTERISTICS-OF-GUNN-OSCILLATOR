@@ -54,17 +54,17 @@ In a Gunn Oscillator, the Gunn diode is placed in a resonant cavity. In this cas
 *Note: After tuning the Gunn source, the procedure for VSWR & Impedance measurement depthof PIN modulator.*
 
 **B.Observation: ** 
-S.No	GUNN BIAS VOLTAGE (V)	GUNN DIODE CURRENT (mA)
-1	0.2	30
-2	0.4	60
-3	0.8	90
-4	1.5	150
-5	2.0	180
-6	2.5	210
-7	3.5	195
-8	4.3	180
-9	5.0	165
-
+| S.No | GUNN BIAS VOLTAGE (V)  | GUNN DIODE CURRENT (mA)  |
+|------|------------------------|--------------------------|
+| 1    | 0.5                   | 40                       |
+| 2    | 1                    | 100                       |
+| 3    | 1.5                    | 120                       |
+| 4    | 2                    | 150                      |
+| 5    | 2.5                    | 160                      |
+| 6    | 3                   | 180                      |
+| 7    | 3.5                    | 195                      |
+| 8    | 4                    | 210                     |
+| 9    | 4.5                    | 195                      |
 **Graph:**
 
 <img width="993" height="1280" alt="image" src="https://github.com/user-attachments/assets/b4faca47-01e3-410f-8219-bbd9bbf62223" />
