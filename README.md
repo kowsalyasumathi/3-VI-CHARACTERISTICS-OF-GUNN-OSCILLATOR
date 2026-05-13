@@ -87,8 +87,6 @@ This behavior confirms the negative differential resistance (NDR) characteristic
 •	Observation should be taken properly.
 
 **Result:**
-The I–V characteristics of the Gunn diode were successfully plotted, showing a clear negative resistance region. The depth of modulation of the PIN diode was calculated from the difference in attenuation readings, confirming proper amplitude modulation of the microwave signal.
-
-
+       The I–V characteristics of the Gunn diode were successfully plotted, showing a clear negative resistance region. The depth of modulation of the PIN diode was calculated from the difference in attenuation readings, confirming proper amplitude modulation of the microwave signal.
 Thus, The experiment was successfully performed, and the negative differential resistance characteristics of the Gunn diode were verified.
 
